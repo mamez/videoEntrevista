@@ -11,20 +11,51 @@
         <link href="/fontawesome/css/fontawesome.min.css" rel="stylesheet">
         <link href="/fontawesome/css/brands.min.css" rel="stylesheet">
         <link href="/fontawesome/css/solid.min.css" rel="stylesheet">
+        <style>
+            body{
+                background-color: #FFFFFF;
+            }
+
+            .container-fluid{
+                border-radius: 20px 20px 20px 20px;
+                -moz-border-radius: 20px 20px 20px 20px;
+                -webkit-border-radius: 20px 20px 20px 20px;
+                border: 4px solid #515b6b;
+                background-color: #F2F4F7;
+                width: 96%;
+                margin-top: 1%;
+            }
+
+           #chat{
+                border-radius: 0px 17px 17px 0px;
+            }
+            #logo{
+                width: 100%;
+            }
+            .divCenter{
+                margin: auto;
+            }
+
+        </style>
     </head>
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-8" style="background-color: blue">
-                    <div class="row" style="background-color:white">
-                        <div class="col-2">logo</div>
-                        <div class="col-6">titulo</div>
-                        <div class="col-4">configuracion</div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2 divCenter">
+                            <img id="logo" src="/img/logo-azul.png" alt="Cmc">
+                        </div>
+                        <div class="col-6">
+                            <h2>dfdsfsdf</h2>
+                            <p>sadasdsad</p>
+                        </div>
+                        <div class="col-4 divCenter">configuracion</div>
                     </div>
                     <div class="row" style="background-color: blue">
                         <div class="col">video</div>
                     </div>
-                    <div class="row" style="background-color:white">
+                    <div class="row">
                         <div class="col-3">en blanco</div>
                         <div class="col-6">
                             <span style="font-size: 48px; color: Dodgerblue;">
@@ -34,7 +65,7 @@
                         <div class="col-3">en blanco</div>
                     </div>
                 </div>
-                <div class="col-4" style="background-color: red">chat</div>
+                <div  id="chat" class="col-4" style="background-color: red">chat</div>
             </div>
         </div>
     </body>
